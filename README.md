@@ -1,8 +1,10 @@
 # Carrier-Pigeon-Chat
 A private (whitelisted) chatroom / postroom using JSON-based posts.
 
-structure:
+Structure of a post:
 
 {
-
+  "author": "thepigeon",
+  "timestamp": (String ISO8601 Standard time in America/Chicago before conversion to local),
+  "content": "Content of the post as a string!"
 }
